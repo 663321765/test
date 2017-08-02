@@ -19,17 +19,20 @@ git commit -m "°T®§bla bla bla"
 (¹w³]­È±¡ªp·|±Nclone¤U¨Óªº³]©w»·ºÝ¦WºÙ¬°origin,branch¬°master,©Ò¥H´Nª½±µ¥´¥H¤U«ü¥O´N¥i¥Hpush¦^¥h)
 git push
 
+PS.cloneªº®É­Ô¤]¥i¥H«ü©w­n¯S©wªºbranch³o­Ó¥t¥~¦A¬d«ü¥O´N¥i¥H¤F~
+
+
 --------------------------------------------------
 
 ¦pªG»Ý­n¦b¤@­Ó¤u§@¥Ø¿ýª½±µ¥Î·s¼W¥»¦agitªº¤u§@°Ï¡A¨º»ò»Ý­nªì©l¤Æ·í«eªº¥Ø¿ý(¨ä¹ê´N¬O²£¥Í¤@¨ÇÁôÂÃÀÉ®×)
 git init
 
 µM«á¦A¸ò»·ºÝ"¤w¸g"¦s¦bªº±M®×°µ³sµ²«h»Ý­n¥H¤U:
-git remote add <¦Û¤v¤è«K¿ëÃÑªº¦WºÙ> <gitºô§}©Îssh³sµ²>
+git remote add <¤è«K¿ëÃÑªº»·ºÝ¦WºÙ> <gitºô§}©Îssh³sµ²>
 (¥Î°_¨Ó¹³³o¼Ë git remote add test https://github.com/663321765/test.git)
 
 ¤W­±ªº¨BÆJ°µ§¹¤§«á¥ý¤£­n«æµÛ°µ­×§ïªº°Ê§@¡A­n¥ý°O±o°µ¥H¤U°Ê§@¥ý¸ò»·ºÝ¦P¨B:
-git pull <¦Û¤v¤è«K¿ëÃÑªº¦WºÙ> <branch¤À¤ä¦WºÙ¡A¦p:master>
+git pull <¤è«K¿ëÃÑªº»·ºÝ¦WºÙ> <branch¤À¤ä¦WºÙ¡A¦p:master>
 (¥Î°_¨Ó¹³³o¼Ë git pull test master)
 PS.¦pªG¨S¥ý³o¼Ë°µ¡A¥ý°µ¤F­×§ïµM«á¤U¤FcommitµM«á¡A¤§«á¦A°µgit pullªº°Ê§@ªº¸Ü«h·|¥X²{¿ù»~°T®§:fatal: refusing to merge unrelated histories
 
@@ -38,7 +41,12 @@ PS.¦pªG¨S¥ý³o¼Ë°µ¡A¥ý°µ¤F­×§ïµM«á¤U¤FcommitµM«á¡A¤§«á¦A°µgit pullªº°Ê§@ªº¸Ü«h·|¥
 ©Î git add -u (³o¬O¥Î¨ÓÀ³¥I¦³§R°£¥H¤Î§ó§ïÀÉ®×ªºª¬ªp)
 µM«á¤@¼Ë­n°O±ocommit¡A³Ì«á¦Apush¦^¥h¡A§¹¦¨¤@®M°Ê§@:
 commit«ü¥O¬O¤@¼Ëªº´N¤£¦h»¡¡Apushªº³¡¤À¤ñ¸û¤£¤@¼ËÅÜ¦¨:
-git push <¤è«K¿ëÃÑªº¦WºÙ> <gitºô§}©Îssh³sµ²>
+git push <¤è«K¿ëÃÑªº»·ºÝ¦WºÙ> <branch¤À¤ä¦WºÙ¡A¦p:master>
 (¥Î°_¨Ó¹³³o¼Ë git push test master)
 
+***
+·íµM¦pªG·í«e¤u§@ªº±M®×µu®É¶¡¤º¤£·|§ïÅÜ¡A¨º»ò¥i¥H³]©wgit push«ü¥O¹w³]¬O­npush¨ì­þ­Ó»·ºÝªºgit©M«ü©wbranch¡A¦p¤U:
+git push --set-upstream <¤è«K¿ëÃÑªº¦WºÙ> <branch¤À¤ä¦WºÙ¡A¦p:master>
+(¥Î°_¨Ó¹³: git push --set-upstream test master)
+PS.¨ä¹ê¨S³]©wªºª¬ªp¤Uª½±µ¥´git push¥L¤]¬O·|´£¥Ü­n«ç»ò³]©w!
 
