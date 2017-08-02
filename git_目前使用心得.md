@@ -39,7 +39,7 @@ PS.clone的時候也可以指定要特定的branch這個另外再查指令就可
 PS.如果沒先這樣做，先做了修改然後又下了commit，之後再做git pull的動作的話則會出現錯誤訊息:fatal: refusing to merge unrelated histories
 參考自:[http://blog.dreamser.com/439.html](http://blog.dreamser.com/439.html)
 
-之後做檔案修改或新增就跟最上面講的一樣，要做git add，然後一樣要記得commit，最後再push回去，完成一套動作。
+4. 之後做檔案修改或新增就跟最上面講的一樣，要做git add，然後一樣要記得commit，最後再push回去，完成一套動作。
 commit指令是一樣的就不多說，push的部分比較不一樣變成:  
 	git push <方便辨識的遠端名稱> <branch分支名稱，如:master>  
 	(用起來像這樣 git push test master)
