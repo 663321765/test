@@ -6,7 +6,7 @@
 2. clone下來的東西如果做了更改，要上傳回去需要利用以下做新增更改的動作:  
 	git add .  
 當然也可以指定特定的檔案  
-	git add <file>  
+	git add <file name>  
 如果有任何刪除、新增或更改檔案則需要以下:  
 	git add .  
 
