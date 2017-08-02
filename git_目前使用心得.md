@@ -30,12 +30,12 @@ PS.clone的時候也可以指定要特定的branch這個另外再查指令就可
 	git init
 
 2. 然後再跟遠端"已經"存在的專案做連結則需要以下:  
-	git remote add \<方便辨識的遠端名稱\> \<git網址或ssh連結\>  
+	git remote add <方便辨識的遠端名稱> <git網址或ssh連結>  
 	(用起來像這樣 git remote add test https://github.com/663321765/test.git)
 
 3. 上面的步驟做完之後先不要急著做修改的動作，要先記得做以下動作先跟遠端同步:  
-		git pull \<方便辨識的遠端名稱\> \<branch分支名稱，如:master\>  
-		(用起來像這樣 git pull test master)
+	git pull <方便辨識的遠端名稱> <branch分支名稱，如:master>  
+	(用起來像這樣 git pull test master)
 PS.如果沒先這樣做，先做了修改然後又下了commit，之後再做git pull的動作的話則會出現錯誤訊息:fatal: refusing to merge unrelated histories  
 參考自:[http://blog.dreamser.com/439.html](http://blog.dreamser.com/439.html)
 
